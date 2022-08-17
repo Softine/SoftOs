@@ -110,5 +110,5 @@ void main_kernel(void)
 	terminal_initialize();
  
 	/* Newline support is left as an exercise. */
-	terminal_writestring("Hello This Is A Ring 0 Kernel");
+	terminal_writestring("Hello This Is A Ring 0 Kernel Made In C");
 }
