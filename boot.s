@@ -84,6 +84,7 @@ _start:
 	preserved and the call is well defined.
 	*/
 	call main_kernel
+	call Os
  
 	/*
 	If the system has nothing more to do, put the computer into an
