@@ -110,6 +110,6 @@ void main_kernel(void)
 	terminal_initialize();
  
 	/* Newline support is left as an exercise. */
-	terminal_writestring("Hello, kernel World!");
+	terminal_writestring("Hello, kernel World!                                                            ");
 	terminal_writestring("Welcome To A Os Made From The Website wiki.osdev.org Bare Bones Artical");
 }
