@@ -8,3 +8,6 @@ You Will Not Need To Unless You Modifey This But IF You Want To You Need To Inst
 2.i686-elf-gcc
 3.qemu-system-i386
 Add These To Your User Path
+# Emulate
+ONLY EMULATE THIS DO NOT USE THIS ON REAL HARDWARE
+to emulate install qemu and add it to your user path
