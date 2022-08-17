@@ -110,12 +110,5 @@ void main_kernel(void)
 	terminal_initialize();
  
 	/* Newline support is left as an exercise. */
-	terminal_writestring("Hello, This Is A Os Made In C And Assembly");
-}
-
-void Os(void) {
-	terminal_writestring("                                     ");
-	terminal_writestring(" Booting Os");
-	terminal_writestring("                                                                     ");
-	terminal_writestring(" Os Booted");
+	terminal_writestring("Hello, This Is A Os Made In C And Assembly Under The Mit License");
 }
