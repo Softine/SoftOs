@@ -1,7 +1,7 @@
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
- 
+
 /* Check if the compiler thinks you are targeting the wrong operating system. */
 #if defined(__linux__)
 #error "You are not using a cross-compiler, you will most certainly run into trouble"
@@ -110,6 +110,5 @@ void main_kernel(void)
 	terminal_initialize();
  
 	/* Newline support is left as an exercise. */
-	terminal_writestring("Hello, kernel World!                                                            ");
-	terminal_writestring("Welcome To A Os Made From The Website wiki.osdev.org Bare Bones Artical");
+	terminal_writestring("Hello This Is A Ring 0 Kernel");
 }
